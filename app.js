@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 
 const app = express();
 const fs = require('fs');
@@ -8,6 +9,10 @@ const jsonFile = fs.readFileSync('./news.json', 'utf8');
 const jsonData = JSON.parse(jsonFile);
 
 app.use(morgan('dev'))
+app.use(cors({
+    origin: '*', // 모든 출처 허용 옵션. true 를 써도 된다.
+}));
+
 app.set('port', process.env.PORT || 3000);
 
 app.get('/', (req, res) => {
