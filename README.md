@@ -12,8 +12,8 @@ news api를 개발용으로 쓰려고 했는데
 # 사용방법
 
 app.js, package.json과 같은 경로에서 
-> npm install 
-> npm start 
+  npm install 
+  npm start 
 
 3000포트에서 서버가 열린다. 
 
