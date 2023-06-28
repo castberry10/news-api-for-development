@@ -1,0 +1,16 @@
+{
+  "name": "news-api-for-develop",
+  "version": "1.0.0",
+  "description": "news api for develop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "castberry10",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
