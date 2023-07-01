@@ -20,3 +20,8 @@ app.js, package.json과 같은 경로에서
 3000포트에서 서버가 열린다. 
 
 서버 url:3000에 get요청을 보내면 임시로 개발에 쓸 수 있는 newsapi 예시가 응답된다.  
+
+-- 2023 7월 1일 
+?category= . . . 
+category 쿼리를 사용할 수 있다. 
+(business, sports, health 등 .. ) 
