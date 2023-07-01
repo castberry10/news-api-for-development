@@ -10,7 +10,8 @@ const jsonData = JSON.parse(jsonFile);
 
 app.use(morgan('dev'))
 app.use(cors({
-    origin: '*', // 모든 출처 허용 
+
+    origin: '*',
 }));
 
 app.set('port', process.env.PORT || 3000);
